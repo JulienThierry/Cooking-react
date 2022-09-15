@@ -1,0 +1,35 @@
+body{
+margin: 0;
+padding: 0;
+background: rgb(252, 241, 226);
+    .app-container{
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(107, 69, 42);
+
+        header{
+            margin: 20px 0px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+    
+            h1 {
+                margin: 10px 0px;
+            }
+            input{
+                width: 30%;
+                height: 30px;
+                border-radius: 25px;
+                background: rgb(255, 250, 241);
+                border: 2px solid rgb(107, 69, 42);
+                text-align: center;
+            }
+        }
+
+        .meals{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+}
+
